@@ -1,0 +1,5 @@
+azure:
+  storage:
+    account-name: kazuki43zoostorage
+    #account-key: ${AZURE_STORAGE_ACCOUNT_KEY}
+    blob-endpoint: https://${azure.storage.account-name}.blob.core.windows.net
